@@ -19,10 +19,10 @@ Utiliza el verbo DELETE para eliminar un usuario existente.
 
 - #### Rutas de la API:
 
-| Recurso     | POST | GET | PUT | PATCH | DELETE                                                                
-|-------------|------- |------- |------- |------- | ------ |
-| /usuarios   |	Crear un nuevo cliente |	Recuperar todos los clientes |	Actualización masiva de clientes | Error |	Eliminar todos los clientes
-| /usuarios/1 |	Error |	Recuperar los detalles del cliente 1 | Error |	Actualizar los detalles del cliente 1 | si existe	Quitar al cliente 1
+| Resource | POST | GET                                   | PUT | PATCH | DELETE                                                                
+|----------|------- |---------------------------------------|------- |------- | ------ |
+| /users   |	Crear un nuevo cliente | 	Recuperar todos los clientes         |	Actualización masiva de clientes | Error |	Eliminar todos los clientes
+| /users/1 |	Error | 	Recuperar los detalles del usuario 1 | Error |	Actualizar los detalles del cliente 1 | si existe	Quitar al usuario 1
 
 
 - #### Parámetros y cuerpos de solicitud:
